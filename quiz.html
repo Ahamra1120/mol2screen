@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mol2Screen</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo"/> 
+      <span>Mol2Screen</span>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="content.html">Contents</a></li>
+        <li><a href="game.html" class="active">Games</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="quiz-container">
+
+    <div id="progress" class="quiz-progress">1/5</div>
+
+    <h2 id="question-text" class="quiz-question">
+        Loading question...
+    </h2>
+
+    <div id="options" class="quiz-options">
+        <!-- Buttons inserted by script -->
+    </div>
+
+    <p id="status" class="quiz-status"></p>
+
+    <button id="next-btn" class="quiz-next">Next</button>
+
+  </section>
+
+<script src="js/quiz.js"></script>
+
+</body>
+</html>
